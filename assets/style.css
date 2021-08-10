@@ -5,4 +5,34 @@
 
 header {
     display: flex;
+    flex-wrap: wrap;
+    background:lightblue
+    
 }
+
+.name_logo {
+    background-color: var(--blue);
+    margin: 10px;
+    padding: 5px;
+    flex: 300px;
+}
+
+.nav_elements {
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 5px;
+    flex:300px;
+    justify-content: flex-end;
+}
+
+.header_image {
+    background-color:gray;
+    justify-content: flex-end;
+    flex:100%;
+    margin:10px;
+}
+
+main {
+    display: flex;
+}
+
