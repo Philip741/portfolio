@@ -10,6 +10,9 @@ header {
     
 }
 
+a { text-decoration: none;
+}
+
 .name_logo {
     background-color: var(--blue);
     margin: 10px;
@@ -22,7 +25,7 @@ header {
     margin: 10px;
     padding: 5px;
     flex:300px;
-    justify-items: flex-end;
+    
     text-align: end;
 }
 
