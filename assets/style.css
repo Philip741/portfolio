@@ -22,7 +22,8 @@ header {
     margin: 10px;
     padding: 5px;
     flex:300px;
-    justify-content: flex-end;
+    justify-items: flex-end;
+    text-align: end;
 }
 
 .header_image {
