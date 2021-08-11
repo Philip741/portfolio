@@ -6,18 +6,27 @@
 header {
     display: flex;
     flex-wrap: wrap;
-    background:lightblue
+    background:darkgray;
+    padding:10px;
     
 }
 
 a { text-decoration: none;
 }
 
+p {
+    font-size: 1em;
+}
+
+h3 {
+    font-size:40pt;
+}
 .name_logo {
-    background-color: var(--blue);
+    background-color: gray;
     margin: 10px;
     padding: 5px;
     flex: 300px;
+    font-size: 2em;
     
 }
 
@@ -34,7 +43,7 @@ a { text-decoration: none;
     background-color:gray;
     justify-content: flex-end;
     flex:100%;
-    margin:10px;
+    margin:2px;
 }
 
 .flex_container {
@@ -42,20 +51,22 @@ a { text-decoration: none;
     flex-wrap: wrap;
     background-color: white;
     height: auto;
-    justify-content: center;
+    justify-content: left;
   }
   
   .flex_container  > div {
-    background-color: #f1f1f1;
+    
     flex-basis: 40%;
     margin: 8px;
     padding: 20px;
-    font-size: 30px;
+    flex-basis:20%;
+    
     
   }
   
   #div_border {
     border-right: 3px solid black;
     text-align: right;
+    justify-self: left;
     
   }
