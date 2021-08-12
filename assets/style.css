@@ -28,6 +28,12 @@ h3 {
     color: var(--brown);
     font-size:4em;
 }
+
+li {
+    display: inline;
+    padding:2px;
+    margin: 10px;
+}
 .name_logo {
     color: var(--darkerblue);
     margin: 10px;
@@ -62,7 +68,7 @@ h3 {
    
   padding: 20px;
   /*Changing basis to at least 10% will stack sections*/
-  flex-basis: 20%;
+  flex-basis: 30%;
 }
 #about_me_container {
     flex-basis: 70%;
