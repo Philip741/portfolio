@@ -211,7 +211,7 @@ li {
         position:absolute;
         top:5%;
         width: 10%;
-        left: 25%;
+        left: 27%;
         background: linear-gradient(to right, var(--blue), transparent);
     }
     #project4_label {
@@ -224,7 +224,7 @@ li {
         position:absolute;
         top:50%;
         width: 10%;
-        left: 25%;
+        left: 27%;
         background: linear-gradient(to right, var(--blue), transparent);
     }
 }
