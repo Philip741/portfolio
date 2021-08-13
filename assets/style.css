@@ -54,6 +54,11 @@ li {
     color:white;
 }
 
+.header_image > img {
+    height: 250px;
+    width: 100%;
+
+}
 .flex_container {
     background-color:var(--white);
     display: flex;
