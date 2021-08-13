@@ -6,13 +6,11 @@
     --darkerblue:rgb(82,111,193)
 }
 
-
 header {
     display: flex;
     flex-wrap: wrap;
     background:white;
     padding:10px;
-    
 }
 
 a { 
@@ -40,19 +38,17 @@ li {
     padding: 5px;
     flex: 300px;
     font-size: 2em;
-    
 }
 
 .nav_elements {
     margin: 10px;
-    padding: 5px;
+    padding: 30px;
     flex:300px;
     text-align: end;
 }
 
 .header_image {
     position: relative;
-    justify-content: flex-end;
     flex:100%;
     margin:0;
     color:white;
@@ -75,21 +71,67 @@ li {
 }
 
 #work_container {
-    position: relative;
     flex-basis:70%;
 }
 
-img {
-    border: 3px solid #ddd;
-    border-radius: 4px;
-    transition:all 1s ease-out;
-    filter: contrast(0.8);
+#work_main_image {
+    position: relative;
 }
 
-img:hover,
-img:focus {
+#work_main_image > img {
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    filter: contrast(0.8);
+}
+#work_smaller_image {
+    position:relative;
+}
+#work_smaller_image > img {
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    height: 25%;
+    width: 25%;
+    filter: contrast(0.8);
+    
+}
+
+#work_img_highlight:hover  {
     filter: invert();
 }
+#project1_label {
+    position:absolute;
+    top:5%;
+    width: 25%;
+    background: linear-gradient(to right, var(--blue), transparent);
+}
+
+#project2_label {
+    position:absolute;
+    top:5%;
+    width: 25%;
+    background: linear-gradient(to right, var(--blue), transparent);
+}
+#project3_label {
+    position:absolute;
+    top:5%;
+    width: 25%;
+    left: 25%;
+    background: linear-gradient(to right, var(--blue), transparent);
+}
+#project4_label {
+    position:absolute;
+    top:50%;
+    width: 25%;
+    background: linear-gradient(to right, var(--blue), transparent);
+}
+#project5_label {
+    position:absolute;
+    top:50%;
+    width: 25%;
+    left: 25%;
+    background: linear-gradient(to right, var(--blue), transparent);
+}
+
 
 #div_border {
   border-right: 3px solid var(--brown);
@@ -106,8 +148,8 @@ img:focus {
 /*change for responsive*/
 #header_title {
     position:absolute;
-    top:100px;
-    left:400px;
+    top:50%;
+    left:30%;
     font-size: 1.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     float:right;
@@ -116,4 +158,15 @@ img:focus {
 #subtitles {
     font-family: Arial, Helvetica, sans-serif;
     font-size:2em;
+}
+
+#profile_pic {
+    display:inline;
+    background-color: transparent;
+    height:auto;
+}
+
+
+@media (max-width: 640px) {
+
 }
