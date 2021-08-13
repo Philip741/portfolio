@@ -181,6 +181,11 @@ li {
         text-align: end;
     }
 
+    .header_image > img {
+        height: 200px;
+        width: 100%;
+    
+    }
     .flex_container {
         background-color:var(--white);
         display: flex;
