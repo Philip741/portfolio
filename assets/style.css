@@ -199,4 +199,32 @@ li {
         justify-content:center;
         flex-basis: 10%;
     }
+
+    #project2_label {
+        position:absolute;
+        top:5%;
+        width: 10%;
+        background: linear-gradient(to right, var(--blue), transparent);
+    }
+
+    #project3_label {
+        position:absolute;
+        top:5%;
+        width: 10%;
+        left: 25%;
+        background: linear-gradient(to right, var(--blue), transparent);
+    }
+    #project4_label {
+        position:absolute;
+        top:50%;
+        width: 10%;
+        background: linear-gradient(to right, var(--blue), transparent);
+    }
+    #project5_label {
+        position:absolute;
+        top:50%;
+        width: 10%;
+        left: 25%;
+        background: linear-gradient(to right, var(--blue), transparent);
+    }
 }
