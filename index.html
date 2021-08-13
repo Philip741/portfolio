@@ -10,12 +10,15 @@
   </head>
   <body>
     <header>
-      <div class="name_logo">Philip Browning</div>
+      <div class="name_logo">
+        <img id="profile_pic" src="./assets/face-pic.png" alt="Small picture of Philip" height="70px" width="80px">
+        <span>Philip Browning</span>
+      </div>
       <div id="anchor_style" class="nav_elements">
-        <a href="#">About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact</a>
-        <a href="#">Resume</a>
+        <a href="#about_me_container">About Me</a>
+        <a href="#work_img">Work</a>
+        <a href="#contact_container">Contact</a>
+        <a href="#resume_container">Resume</a>
       </div>
       
     </header>
@@ -42,19 +45,32 @@
           <h3>Work</h3>
         </div>
         <div id="work_container">
-          <div>
-            <img src="./assets/benjamin-chan-9xmoqdqgF5U-unsplash.jpeg" alt="Header image of a sunset over water" height="50.5%" width="50.5%">
-          </div>
-          <div>
-            <img id="inline_image" src="./assets/benjamin-chan-9xmoqdqgF5U-unsplash.jpeg" alt="Header image of a sunset over water" height="25%" width="25%">
-            <img id="inline_image" src="./assets/benjamin-chan-9xmoqdqgF5U-unsplash.jpeg" alt="Header image of a sunset over water" height="25%" width="25%">
-          </div>
-          <div>
-            <img id="inline_image" src="./assets/benjamin-chan-9xmoqdqgF5U-unsplash.jpeg" alt="Header image of a sunset over water" height="25%" width="25%">
-            <img id="inline_image" src="./assets/benjamin-chan-9xmoqdqgF5U-unsplash.jpeg" alt="Header image of a sunset over water" height="25%" width="25%">
-          </div>
-        </div>
-      </div>
+          <!-- Work first project largest image -->
+          <div id="work_main_image">
+            <img id="work_img_highlight" src="./assets/benjamin-chan-9xmoqdqgF5U-unsplash.jpeg"
+              alt="Header image of a sunset over water" height="50.5%" width="50.5%">
+            <div id="project1_label">
+              <p>web project</p>
+            </div>
+          </div>  
+          <!-- Smaller images under work -->
+            <div id="work_smaller_image">
+              <img id="work_img_highlight" src="./assets/benjamin-chan-9xmoqdqgF5U-unsplash.jpeg"
+                alt="Header image of a sunset over water">
+                <p id="project2_label">python project</p>
+                  <img id="work_img_highlight" src="./assets/solen-feyissa-Oq4tIn-aeko-unsplash.jpeg">
+                  <p id="project3_label">python project</p>
+                  <br>
+                  <img id="work_img_highlight" src="./assets/sarah-janes-NdPWKTWIgG8-unsplash.jpeg">
+                  <p id="project4_label">python project</p>
+                  <img id="work_img_highlight" src="./assets/rocket.png">
+                  <p id="project5_label">python project</p>
+            </div>
+            </div>
+            </div>
+
+            </div>
+            </div>
 
       <!-- Contact section -->
       <div class="flex_container">
@@ -62,7 +78,7 @@
           <h3>Contact<br />Me</h3>
         </div>
 
-        <div>
+        <div id="contact_container">
            <ul>
              <li><a href="#">philip741@gmail.com</a></li>
              <li><a href="#">Github</a></li>
@@ -70,10 +86,11 @@
            </ul> 
         </div>
       </div>
-      <div class="flex_container">
+      <div id ="resume_container" class="flex_container">
         <div id="div_border">
           <h3>Resume</h3>
         </div>
+        <div><a href="#">Resume Link</a></div>
       </div>
     </main>
   </body>
