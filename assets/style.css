@@ -15,6 +15,7 @@ header {
 
 a { 
     text-decoration: none;
+    font-size: 1em;
 }
 #a_inline{
     display:inline;
@@ -26,7 +27,7 @@ p {
 
 h3 {
     color: var(--brown);
-    font-size:4em;
+    font-size:3em;
 }
 
 li {
@@ -49,6 +50,10 @@ li {
     text-align: end;
 }
 
+.nav_elements a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.1em;
+}
 .header_image {
     position: relative;
     flex:100%;
@@ -72,6 +77,10 @@ li {
   padding: 20px;
   /*Changing basis to at least 10% will stack sections*/
   flex-basis: 30%;
+}
+
+.flex_container a {
+    font-size: 1.5em;
 }
 #about_me_container {
     flex-basis: 70%;
@@ -157,7 +166,7 @@ li {
     font-size: 1.5em;
 }
 
-/*change for responsive*/
+
 #header_title {
     position:absolute;
     top:50%;
@@ -176,6 +185,10 @@ li {
     display:inline;
     background-color: transparent;
     height:auto;
+}
+
+footer {
+    padding: 15px;
 }
 
 
