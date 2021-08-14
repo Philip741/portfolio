@@ -16,7 +16,9 @@ header {
 a { 
     text-decoration: none;
 }
-
+#a_inline{
+    display:inline;
+}
 p {
     padding:10px;
     font-size: 1em;
@@ -62,10 +64,10 @@ li {
 .flex_container {
     background-color:var(--white);
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding-top: 40px;
 }
-.flex_container  > div {
+.flex_container > div {
    
   padding: 20px;
   /*Changing basis to at least 10% will stack sections*/
@@ -78,23 +80,25 @@ li {
 #work_container {
     flex-basis:70%;
     color: white;
+    
 }
 
 #work_main_image {
     position: relative;
 }
 
-#work_main_image > img {
+#work_main_image img {
     border: 3px solid #ddd;
     border-radius: 4px;
     filter: contrast(0.8);
-    height: 50.5%;
-    width: 50.5%;
+    height: 25%;
+    width: 51%;
+    
 }
 #work_smaller_image {
     position:relative;
 }
-#work_smaller_image > img {
+#work_smaller_image img {
     border: 3px solid #ddd;
     border-radius: 4px;
     height: 25%;
@@ -220,14 +224,14 @@ li {
         color:white;
     }
 
-    #work_main_image > img {
+    #work_main_image img {
         border: 3px solid #ddd;
         border-radius: 4px;
         filter: contrast(0.8);
         height: 70.5%;
         width: 80%;
     }
-    #work_smaller_image > img {
+    #work_smaller_image img {
         border: 3px solid #ddd;
         border-radius: 4px;
         height: 25%;
