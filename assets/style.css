@@ -87,6 +87,8 @@ li {
     border: 3px solid #ddd;
     border-radius: 4px;
     filter: contrast(0.8);
+    height: 50.5%;
+    width: 50.5%;
 }
 #work_smaller_image {
     position:relative;
@@ -209,6 +211,26 @@ li {
         justify-content:center;
         flex-basis: 10%;
     }
+    
+    #work_container {
+        flex:80%;
+    }
+
+    #work_main_image > img {
+        border: 3px solid #ddd;
+        border-radius: 4px;
+        filter: contrast(0.8);
+        height: 70.5%;
+        width: 90%;
+    }
+    #work_smaller_image > img {
+        border: 3px solid #ddd;
+        border-radius: 4px;
+        height: 25%;
+        width: 45%;
+        filter: contrast(0.8);
+        
+    }
 
     #project2_label {
         position:absolute;
@@ -221,7 +243,7 @@ li {
         position:absolute;
         top:5%;
         width: 10%;
-        left: 27%;
+        left: 45%;
         background: linear-gradient(to right, var(--blue), transparent);
     }
     #project4_label {
@@ -234,7 +256,7 @@ li {
         position:absolute;
         top:50%;
         width: 10%;
-        left: 27%;
+        left: 45%;
         background: linear-gradient(to right, var(--blue), transparent);
     }
 }
