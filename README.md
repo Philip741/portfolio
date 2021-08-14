@@ -1,2 +1,2 @@
-# portfolio
-website representing my online portfolio
+# Portfolio
+Website representing my online portfolio.
