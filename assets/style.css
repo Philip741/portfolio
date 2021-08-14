@@ -118,6 +118,7 @@ li {
 
 #work_img_highlight:hover  {
     filter: invert();
+    font-size: 0;
 }
 #project1_label {
     position:absolute;
@@ -189,6 +190,7 @@ li {
 
 footer {
     padding: 15px;
+    text-align: center;
 }
 
 
