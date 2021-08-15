@@ -118,8 +118,8 @@ li {
 
 #work_img_highlight:hover  {
     filter: invert();
-    font-size: 0;
 }
+
 #project1_label {
     position:absolute;
     top:5%;
