@@ -6,15 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Philip Portfolio</title>
-  <link rel="stylesheet" href="./assets/reset.css" />
-  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
   <header>
     <div class="name_logo">
+      <div>
       <img id="profile_pic" src="./assets/face-pic.png" alt="Small picture of Philip" height="70px" width="80px">
-      <span>Philip Browning</span>
+      </div>
+      <div class="name_element">
+        <span >Philip Browning</span>
+        </div>
     </div>
     <div id="anchor_style" class="nav_elements">
       <a href="#about_me_container">About</a>
@@ -37,11 +41,13 @@
           <h3>About<br />Me</h3>
         </div>
         <div id="about_me_container">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repudiandae accusantium iure ea sit
-            asperiores recusandae,
-            quidem exercitationem quis ut sequi odio tempora pariatur, delectus earum cum numquam labore illum?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolores officia eum earum sed unde ipsum!
-            Repellendus dolorem officia minus iusto quia esse quos, possimus, tempore iure cupiditate aperiam sequi!</p>
+          <p>Hello, I'm Philip. I am a full stack web developer. I currently have skills in HTML, Javascript and CSS.
+            I have a former background in Linux and senior level System Administrator work. Please see my work below to check out things
+            I have built. 
+            </p>
+          <p> My main interests are programming, art and music. I like creating things, automating and making things work. For fun, I like 
+            to learn game programming, play guitar and be the best father I can be to my son. 
+            </p>
         </div>
       </div>
     </section>
@@ -54,30 +60,37 @@
         <div id="work_container">
           <!-- Work first project largest image -->
           <div id="work_main_image">
-            <a href="https://github.com/PhilipBrowning/landing-page">
-              <img id="work_img_highlight" src="./assets/benjamin-chan-9xmoqdqgF5U-unsplash.jpeg"
+            <div id="project1_label">
+            <p>Recipe Generator</p>
+            </div>
+            <a href="https://philipbrowning.github.io/project1/">
+              <img id="work_img_highlight" src="./assets/images/recipe-planner.png"
                 alt="image of a vending machine">
             </a>
-            <div id="project1_label">
-              <p>Landing page project</p>
-            </div>
           </div>
           <!-- Smaller images under work -->
           <div id="work_smaller_image">
-            <a href="https://github.com/PhilipBrowning/css-cheatsheet">
-              <img id="work_img_highlight" src="./assets/benjamin-chan-9xmoqdqgF5U-unsplash.jpeg"
+            <div>
+            <p id="project2_label">Weather Dashboard</p>
+            <a href="https://philipbrowning.github.io/weather-dashboard/">
+              <img id="work_img_highlight" src="./assets/images/weather-dashboard.png"
                 alt="Another image of a vending machine">
-            </a>
-            <p id="project2_label">web project</p>
-            <img id="work_img_highlight" src="./assets/solen-feyissa-Oq4tIn-aeko-unsplash.jpeg"
+            </a></div>
+            <div>
+            <p id="project3_label">Day Planner</p>
+            <img id="work_img_highlight" src="./assets/images/planner.png"
               alt="image with random circular colors">
-            <p id="project3_label">web project</p>
+            </div>
             <br>
-            <img id="work_img_highlight" src="./assets/sarah-janes-NdPWKTWIgG8-unsplash.jpeg"
+            <div>
+            <p id="project4_label">Quiz App</p>
+            <img id="work_img_highlight" src="./assets/images/quiz-game.png"
               alt="image of a door in a wall">
-            <p id="project4_label">web project</p>
-            <img id="work_img_highlight" src="./assets/rocket.png" alt="Image of a hand drawn rocket ship taking off">
-            <p id="project5_label">web project</p>
+            </div>
+            <div>
+            <p id="project5_label">Password Generator</p>
+            <img id="work_img_highlight" src="./assets/images/password-generator.png" alt="Image of a hand drawn rocket ship taking off">
+            </div>
           </div>
         </div>
       </div>
@@ -118,7 +131,7 @@
         <div id="div_border">
           <h3>Resume</h3>
         </div>
-        <div><a href="#">Resume Link</a></div>
+        <div><a href="./assets/images/Philip_Browning_Resume.docx.pdf">Resume</a></div>
       </div>
     </section>
   </main>
