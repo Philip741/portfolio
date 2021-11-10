@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build -i src/styles.css -o assets/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilipBrowning/portfolio.git"
+  },
+  "author": "Philip Browning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhilipBrowning/portfolio/issues"
+  },
+  "homepage": "https://github.com/PhilipBrowning/portfolio#readme",
+  "devDependencies": {
+    "tailwindscss": "^0.3.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
