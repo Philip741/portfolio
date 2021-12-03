@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
-<body class="bg-gray-300">
+<body class="container mx-auto bg-gray-200">
   <header>
-    <nav class="container flex flex-col sm:flex-row text-m justify-around py-8 mx-auto bg-gray-100 ">
+    <nav class="flex flex-col sm:flex-row text-m justify-around py-16 sm:py-32 md:py-8 mx-auto bg-white">
         <span class="mb-4 text-center sm:mb-0 sm:ml-0 text-xl font-medium text-gray-500">Philip Browning</span>
       <div>
       <div class="text-center space-x-8">
@@ -26,15 +26,15 @@
   </header>
   
   <main>
-    <section class="container mx-auto">
-      <div class="grid grid-cols-12 h-screen">
+    
+      <div class="grid grid-cols-12">
         
         <!-- hero section --> 
-        <main class=" col-span-12 row-span-4 bg-daily-dev-tips items-center mb-4  bg-gray-100">
+        <main class="col-span-12 items-center bg-white mb-8">
           <h1 class="ml-4 sm:ml-0 sm:text-6xl text-4xl font-medium text-center  font-mono text-gray-900 mt-20 sm:mt-40 mb-8">Building and Developing</h1>
-          <h3 class="sm:ml-8 sm:text-4xl text-xl font-medium title-font font-mono text-center text-gray-900 mb-24">Web Experiences</h3> 
-          <div class="row-span-3">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <h3 class="sm:ml-8 sm:text-4xl text-xl font-medium title-font font-mono text-center text-gray-900 mb-20">Web Experiences</h3> 
+          <div>
+            <svg class="xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
               <path fill="#0099ff" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
             </svg>
           </div>
@@ -42,13 +42,13 @@
         <!-- End hero section -->
 
         <!-- work section --> 
-        <main class="col-span-12 row-span-6 bg-gray-100 mb-10">
+        <main class="col-span-12 row-span-6 bg-white mb-10">
           <!-- work content -->
           <section id="work-section" class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto">
               <div class="flex flex-wrap w-full mb-20">
                 <div class="lg:w-1/2 w-full  mb-6 lg:mb-0">
-                  <h1 class="sm:text-3xl text-2xl font-medium title-font ml-20 mb-2 text-gray-900">My Work</h1>
+                  <h1 class="sm:text-3xl text-2xl font-medium title-font ml-16 mb-2 text-gray-900">My Work</h1>
                   <div class="h-1 w-20 bg-yellow-500 rounded ml-20"></div>
                 </div>
                 <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">These are projects highlighting my skills. You can view the source for all of them on Github. Where nodejs
@@ -122,7 +122,7 @@
 
 
           <!-- About me section -->
-        <section class="col-span-12 bg-gray-200 mb-10">
+        <section class="col-span-12 bg-white mb-10">
           <div class="col-span-12">
             <section id="about-section" class="text-gray-600 body-font">
               <div class="container px-5 py-24 mx-auto flex flex-col">
@@ -155,7 +155,7 @@
               </section>
   </section>
             <!-- Contact me section -->
-            <section id="contact-section" class="col-span-12 bg-gray-200 text-gray-600 body-font relative">
+            <section id="contact-section" class="col-span-12 bg-white text-gray-600 body-font relative">
             <form target="_blank" action="https://formsubmit.co/philip741@gmail.com" method="POST">
               <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-12">
